@@ -1,8 +1,8 @@
 # 📊 Customer Churn Prediction
 
-A Machine Learning project that predicts whether a customer is likely to **churn (leave the service)** based on customer information and service usage.
+A Machine Learning project that predicts whether a customer is likely to **churn (leave the service)** based on customer information, service usage, contract details, and billing information.
 
-The project covers the complete Machine Learning workflow, starting from Exploratory Data Analysis (EDA) to model training, evaluation, and saving the trained model.
+The project covers the complete Machine Learning workflow, starting from **Exploratory Data Analysis (EDA)** to data preprocessing, feature engineering, feature selection, model development, evaluation, model saving, and Streamlit deployment.
 
 ---
 
@@ -17,22 +17,41 @@ In this project:
 
 Customer churn means that a customer leaves or cancels the company's service.
 
-The model can help businesses identify customers who are at risk of leaving and take appropriate retention actions.
+The model can help businesses identify customers who are at risk of leaving and take appropriate customer retention actions.
 
 ---
 
-## 🗂️ Project Structure
+## 🚀 Project Workflow
 
 ```text
-Customer-Churn-Prediction/
-│
-├── 01_EDA_Churn_Analysis.ipynb
-├── 02_Churn_ML_Model.ipynb
-│
-├── customer_churn.csv
-├── churn_cleaned.csv
-│
-├── churn_logistic_model.pkl
-├── churn_scaler.pkl
-│
-└── README.md
+Dataset
+   ↓
+EDA
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Encoding
+   ↓
+Scaling
+   ↓
+Transformation
+   ↓
+Feature Selection
+   ↓
+Dimension Reduction Analysis
+   ↓
+ML Model Development
+   ↓
+Model Comparison
+   ↓
+Hyperparameter Tuning
+   ↓
+Model Evaluation
+   ↓
+Model Saving
+   ↓
+Streamlit Application
+   ↓
+Customer Churn Prediction
